@@ -32,10 +32,19 @@ export function arm(scope) {
 
 export function initMotion() {
   const header = document.querySelector("[data-header]");
+  const desktopHeader = window.matchMedia("(min-width: 900px)");
   if (header) {
-    const onScroll = () => header.classList.toggle("is-scrolled", window.scrollY > 8);
+    const onScroll = () => {
+      const scrolled = window.scrollY > 8;
+      header.classList.toggle("is-scrolled", scrolled);
+      document.body.classList.toggle(
+        "header-compact",
+        scrolled && desktopHeader.matches
+      );
+    };
     onScroll();
     window.addEventListener("scroll", onScroll, { passive: true });
+    desktopHeader.addEventListener("change", onScroll);
   }
 
   if (!reduced.matches) {

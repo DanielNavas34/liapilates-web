@@ -29,6 +29,19 @@
 }
 
 @media (min-width: 900px) {
+  .site-header.is-scrolled {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body.header-compact {
+    padding-top: var(--header);
+  }
+
   .site-header:not(.is-scrolled) .nav-toggle {
     display: none;
   }
@@ -175,6 +188,19 @@
 }
 
 @media (max-width: 899px) {
+  .site-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    max-width: 100%;
+  }
+
+  body {
+    padding-top: var(--header);
+  }
+
   body.nav-open::before {
     content: "";
     position: fixed;
