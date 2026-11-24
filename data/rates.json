@@ -1,0 +1,66 @@
+{
+  "currency": "EUR",
+  "priceLabel": "A consultar",
+  "note": "Cada propuesta depende del formato, los plazos y el uso que necesite la marca. Los vemos juntos.",
+  "groups": [
+    {
+      "id": "instagram",
+      "title": "Instagram",
+      "items": [
+        {
+          "id": "reel",
+          "name": "Reel patrocinado",
+          "summary": "Un Reel para Instagram, con el enfoque y la mención de marca acordados antes de publicarlo."
+        },
+        {
+          "id": "story",
+          "name": "Story individual",
+          "summary": "Una story para presentar una idea, un uso o una novedad de la marca."
+        },
+        {
+          "id": "stories-pack",
+          "name": "Pack de Stories",
+          "summary": "Varias stories seguidas. El número de piezas se concreta en cada acuerdo."
+        },
+        {
+          "id": "reel-stories",
+          "name": "Reel + Stories",
+          "summary": "Un Reel acompañado de stories, pensados como una misma colaboración."
+        }
+      ]
+    },
+    {
+      "id": "producto",
+      "title": "Producto",
+      "items": [
+        {
+          "id": "producto",
+          "name": "Colaboración con producto",
+          "summary": "Contenido a partir de un producto enviado por la marca, identificado como colaboración."
+        }
+      ]
+    },
+    {
+      "id": "marca",
+      "title": "Marca",
+      "items": [
+        {
+          "id": "embajadora",
+          "name": "Embajadora de marca",
+          "summary": "Una relación continuada. La duración y los entregables se definen por escrito."
+        }
+      ]
+    },
+    {
+      "id": "medida",
+      "title": "A medida",
+      "items": [
+        {
+          "id": "campana",
+          "name": "Campañas personalizadas",
+          "summary": "Una propuesta a medida cuando el formato estándar no cubre lo que la marca necesita."
+        }
+      ]
+    }
+  ]
+}

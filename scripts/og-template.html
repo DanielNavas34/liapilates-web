@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <title>og-export</title>
+    <link rel="stylesheet" href="../css/variables.css">
+    <style>
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        width: 1200px;
+        height: 630px;
+        display: flex;
+        background: var(--paper);
+        color: var(--ink);
+        overflow: hidden;
+      }
+
+      .og-bar {
+        width: 14px;
+        flex-shrink: 0;
+        background: var(--rose);
+      }
+
+      .og-main {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 72px 80px;
+        min-width: 0;
+      }
+
+      .og-brand {
+        margin: 0;
+        font-family: var(--serif);
+        font-size: 96px;
+        font-weight: 500;
+        line-height: 0.82;
+        letter-spacing: -0.05em;
+        color: var(--ink);
+      }
+
+      .og-phrase {
+        margin: 1.35rem 0 0;
+        padding-block: 1rem;
+        border-top: 1px solid var(--ink);
+        border-bottom: 1px solid var(--ink);
+      }
+
+      .og-phrase p {
+        margin: 0;
+        font-family: var(--serif);
+        font-style: italic;
+        font-weight: 500;
+        font-size: 44px;
+        line-height: 1.12;
+        letter-spacing: -0.035em;
+        max-width: 18ch;
+        text-wrap: balance;
+      }
+
+      .og-handle {
+        margin: 2.4rem 0 0;
+        font-family: var(--sans);
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.16em;
+        text-transform: uppercase;
+        color: var(--ink-soft);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="og-bar" aria-hidden="true"></div>
+    <div class="og-main">
+      <p class="og-brand">liapilates</p>
+      <blockquote class="og-phrase">
+        <p>Mi mejor versión no tiene edad, tiene actitud.</p>
+      </blockquote>
+      <p class="og-handle">@liapilates21</p>
+    </div>
+  </body>
+</html>

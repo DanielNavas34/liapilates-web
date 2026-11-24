@@ -1,0 +1,16 @@
+{
+  "name": "web-lia2",
+  "version": "1.0.0",
+  "description": "Portfolio editorial y media kit de liapilates (@liapilates21). Es un sitio estático, en español, pensado para publicarse en GitHub Pages. No tiene backend, base de datos ni dependencias de ejecución.",
+  "private": true,
+  "scripts": {
+    "export:og": "node scripts/export-og.mjs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "puppeteer": "^25.18.1"
+  }
+}

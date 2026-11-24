@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /assets/files/
+
+Sitemap: https://DanielNavas34.github.io/liapilates-web/sitemap.xml

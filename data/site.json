@@ -1,0 +1,100 @@
+{
+  "hero": {
+    "src": "assets/images/lia-hero.webp",
+    "alt": "liapilates con vestido y chaqueta de punto marrón, cinturón con hebilla dorada y pañuelo satinado, posando ante un armario blanco.",
+    "width": 1016,
+    "height": 1080
+  },
+  "portrait": {
+    "src": "assets/images/lia-retrato.webp",
+    "alt": "liapilates posando de cuerpo entero con conjunto crudo de punto, gorra blanca y zapatillas, apoyada en un armario blanco.",
+    "width": 1157,
+    "height": 1360
+  },
+  "contact": {
+    "email": "mluisaruizcabas@gmail.com",
+    "instagram": "https://www.instagram.com/liapilates21/",
+    "instagramHandle": "@liapilates21"
+  },
+  "seo": {
+    "siteUrl": "https://DanielNavas34.github.io/liapilates-web",
+    "locale": "es_ES",
+    "twitterCreator": "@liapilates21",
+    "ogImagePath": "/assets/images/og.png"
+  },
+  "insightsPeriod": "Instagram · reels · 11 oct–10 nov 2026 (30 días).",
+  "completedCollaborations": [
+    {
+      "name": "Naturadika",
+      "note": "Nutricosmética y complementos naturales.",
+      "logo": "assets/images/logos/logo-naturadika.png",
+      "logoAlt": "Logotipo de Naturadika."
+    },
+    {
+      "name": "LICO Cosmetics",
+      "note": "Cosmética de ingeniería y cuidado de la piel.",
+      "logo": "assets/images/logos/logo-lico.svg",
+      "logoAlt": "Logotipo de LICO Cosmetics."
+    }
+  ],
+  "audience": [
+    { "id": "followers", "label": "Seguidores", "value": "173 mil" },
+    { "id": "reach", "label": "Espectadores (reels)", "value": "758 mil" },
+    { "id": "impressions", "label": "Visualizaciones de reels", "value": "1,8 mill." },
+    { "id": "interactions", "label": "Interacciones en reels", "value": "49 mil me gusta · 636 comentarios · 5345 compartidos · 50 mil guardados" },
+    { "id": "volume", "label": "Reels en el periodo", "value": "23" },
+    { "id": "engagement", "label": "Me gusta / visualizaciones", "value": "2,7 %" }
+  ],
+  "featuredReels": [
+    {
+      "title": "Movilidad y fuerza en la cadera",
+      "url": "https://www.instagram.com/reels/Dfhc8cgxGlI/",
+      "cover": "assets/images/reel-01.webp",
+      "alt": "Carátula del reel de liapilates sobre movilidad y fuerza en la cadera.",
+      "width": 290,
+      "height": 502
+    },
+    {
+      "title": "Espalda sin chichas",
+      "url": "https://www.instagram.com/reels/DffV7VXxUUT/",
+      "cover": "assets/images/reel-02.webp",
+      "alt": "Carátula del reel de ejercicios para espalda sin chichas, con mancuernas.",
+      "width": 287,
+      "height": 512
+    },
+    {
+      "title": "Entrena en silla todo el cuerpo",
+      "url": "https://www.instagram.com/reels/DfcmhOexbJh/",
+      "cover": "assets/images/reel-03.webp",
+      "alt": "Carátula del reel de entrenamiento de cuerpo entero usando una silla.",
+      "width": 291,
+      "height": 516
+    },
+    {
+      "title": "64 años · brazos firmes",
+      "url": "https://www.instagram.com/reels/DfaJyCAxU2W/",
+      "cover": "assets/images/reel-04.webp",
+      "alt": "Carátula del reel de brazos firmes para mujeres maduras.",
+      "width": 270,
+      "height": 482
+    },
+    {
+      "title": "Fuera flacidez · parte interna del muslo",
+      "url": "https://www.instagram.com/reels/DfWfY6LR2dF/",
+      "cover": "assets/images/reel-05.webp",
+      "alt": "Carátula del reel de ejercicio para la parte interna de la pierna.",
+      "width": 271,
+      "height": 478
+    },
+    {
+      "title": "Hoy quemamos calorías",
+      "url": "https://www.instagram.com/reels/DfSeJQSxV8R/",
+      "cover": "assets/images/reel-06.webp",
+      "alt": "Carátula del reel de rutina para quemar calorías en casa.",
+      "width": 282,
+      "height": 483
+    }
+  ],
+  "testimonials": [],
+  "campaigns": []
+}

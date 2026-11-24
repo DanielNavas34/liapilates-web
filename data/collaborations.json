@@ -1,0 +1,64 @@
+{
+  "note": "Así suelo colaborar: lo hablamos antes, lo grabo con mi estilo y, cuando es patrocinio, lo dejo claro en la publicación.",
+  "groups": [
+    {
+      "id": "instagram",
+      "title": "Instagram",
+      "items": [
+        {
+          "id": "reels",
+          "name": "Creación de Reels",
+          "summary": "Vídeo breve para Instagram, con el tono y el enfoque acordados con la marca."
+        },
+        {
+          "id": "stories",
+          "name": "Publicaciones en Stories",
+          "summary": "Una story o una secuencia para presentar una novedad, un uso o una recomendación."
+        }
+      ]
+    },
+    {
+      "id": "marca-producto",
+      "title": "Marca y producto",
+      "items": [
+        {
+          "id": "producto",
+          "name": "Presentación de productos",
+          "summary": "El producto entra en el contenido sin disfrazarse de una opinión no pactada."
+        },
+        {
+          "id": "demo",
+          "name": "Demostraciones y recomendaciones",
+          "summary": "Muestra de uso, rutina o experiencia, identificada como colaboración cuando corresponde."
+        }
+      ]
+    },
+    {
+      "id": "contenido",
+      "title": "Contenido",
+      "items": [
+        {
+          "id": "fitness",
+          "name": "Contenido de fitness",
+          "summary": "Fuerza, trabajo funcional y movimiento en casa."
+        },
+        {
+          "id": "moda-belleza",
+          "name": "Contenido de moda y belleza",
+          "summary": "Looks, cuidado personal y belleza pensada para mujeres reales."
+        }
+      ]
+    },
+    {
+      "id": "continuidad",
+      "title": "Continuidad",
+      "items": [
+        {
+          "id": "largo-plazo",
+          "name": "Colaboraciones a largo plazo",
+          "summary": "Una presencia continuada, como una embajada, cuando las dos partes quieren sostenerla."
+        }
+      ]
+    }
+  ]
+}
