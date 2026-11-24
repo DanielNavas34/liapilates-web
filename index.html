@@ -61,16 +61,19 @@
         <span class="nav-toggle__bars" aria-hidden="true"><span></span><span></span><span></span></span>
         <span class="nav-toggle__label visually-hidden">Menú</span>
       </button>
-      <nav class="site-nav" id="navegacion" data-nav aria-label="Principal">
-        <ul>
-          <li><a href="#sobre-mi">Sobre mí</a></li>
-          <li><a href="#contenido">Contenido</a></li>
-          <li><a href="#marcas">Marcas</a></li>
-          <li><a href="#tarifas">Tarifas</a></li>
-          <li><a href="#colaboraciones">Colaboraciones</a></li>
-          <li hidden data-nav-extra="campanas"><a href="#campanas">Campañas</a></li>
-          <li hidden data-nav-extra="testimonios"><a href="#testimonios">Testimonios</a></li>
-        </ul>
+      <nav class="site-nav" id="navegacion" data-nav aria-labelledby="site-nav-label" aria-label="Principal">
+        <div class="site-nav__panel">
+          <p class="site-nav__kicker kicker" id="site-nav-label">Navegación</p>
+          <ul>
+            <li><a href="#sobre-mi">Sobre mí</a></li>
+            <li><a href="#contenido">Contenido</a></li>
+            <li><a href="#marcas">Marcas</a></li>
+            <li><a href="#tarifas">Tarifas</a></li>
+            <li><a href="#colaboraciones">Colaboraciones</a></li>
+            <li hidden data-nav-extra="campanas"><a href="#campanas">Campañas</a></li>
+            <li hidden data-nav-extra="testimonios"><a href="#testimonios">Testimonios</a></li>
+          </ul>
+        </div>
       </nav>
     </header>
 

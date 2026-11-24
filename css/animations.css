@@ -167,7 +167,12 @@
   }
 
   .site-nav a:hover,
-  .site-nav a:focus-visible,
+  .site-nav a:focus-visible {
+    color: var(--rose-deep);
+  }
+
+  .site-header:not(.is-scrolled) .site-nav a:hover,
+  .site-header:not(.is-scrolled) .site-nav a:focus-visible,
   .footer-nav a:hover,
   .footer-nav a:focus-visible,
   .site-header__brand:hover,
