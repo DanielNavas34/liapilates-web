@@ -64,17 +64,13 @@ export function initHeroParallax() {
   if (reduced.matches) return;
   const hero = document.querySelector(".hero");
   if (!hero) return;
-  const phrase = hero.querySelector(".hero__phrase");
   const lead = hero.querySelector(".hero__lead");
-  if (!phrase && !lead) return;
+  if (!lead) return;
 
   const onScroll = () => {
     const limit = hero.offsetHeight * 0.85;
     const y = Math.min(Math.max(window.scrollY, 0), limit);
-    const p = y * 0.12;
-    const l = y * 0.06;
-    if (phrase) phrase.style.transform = `translate3d(0, ${p}px, 0)`;
-    if (lead) lead.style.transform = `translate3d(0, ${l}px, 0)`;
+    lead.style.transform = `translate3d(0, ${y * 0.06}px, 0)`;
   };
 
   onScroll();

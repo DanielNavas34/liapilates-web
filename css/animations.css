@@ -33,7 +33,7 @@
 }
 
 .js.is-ready .brand-display__word > span {
-  animation: letter 0.72s var(--ease) both;
+  animation: letter 0.72s var(--ease) forwards;
 }
 
 .js.is-ready .brand-display__word > span:nth-child(1) { animation-delay: 0.05s; }
@@ -195,6 +195,9 @@
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .nav-toggle__bars span {
+    transition: none !important;
+  }
   html {
     scroll-behavior: auto;
   }
